@@ -1,0 +1,28 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "pylons",
+  "assets": [
+    {
+      "description": "The revenue token for Pulons",
+      "denom_units": [
+        {
+          "denom": "ubedrock",
+          "exponent": 0
+        },
+        {
+          "denom": "rock",
+          "exponent": 6
+        }
+      ],
+      "base": "umntl",
+      "name": "Bedrock",
+      "display": "rock",
+      "symbol": "ROCK",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/Pylons-tech/pylons/blob/main/wallet/assets/images/icons/pylons_logo_24x24.png",
+        "svg": "https://raw.githubusercontent.com/Pylons-tech/pylons/main/wallet/assets/images/icons/pylons_logo.svg"
+      }
+      ]
+    }
+  ]
+}
