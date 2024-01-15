@@ -1,0 +1,82 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "pylonschain",
+  "status": "live",
+  "network_type": "mainnet",
+  "website": "https://pylons.tech/",
+  "pretty_name": "Pylons",
+  "chain_id": "pylons",
+  "bech32_prefix": "pylo1",
+  "daemon_name": "",
+  "node_home": "$WORKSPACE/",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ubedrock",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0.003,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.007
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ubedrock"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/pylons-tech/pylons",
+    "recommended_version": "",
+    "compatible_versions": [
+      ""
+    ],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/Pylons-tech/pylons-testnet/main/testnet2/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1.1.3",
+        "recommended_version": "v1.1.3",
+        "compatible_versions": [
+          "v1.1.3"
+        ],
+        "binaries": {
+        }
+      }
+    ]
+  },
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/Pylons-tech/pylons/blob/main/wallet/assets/images/icons/pylons_logo_24x24.png",
+    "svg": "https://raw.githubusercontent.com/Pylons-tech/pylons/main/easel/assets/images/svg/pylons_logo.svg"
+  },
+  "peers": {
+    "seeds": [
+    ]
+  },
+  "apis": {
+    "rpc": [
+     
+    ],
+    "rest": [
+      
+    ],
+    "grpc": [
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Nodes.guru",
+      "url": "https://pylons.explorers.guru/",
+      "tx_page": "https://pylons.explorers.guru/transaction/${txHash}"
+    }
+  ],
+  "images": [
+  ]
+}
